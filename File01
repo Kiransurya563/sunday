@@ -1,0 +1,16 @@
+let res = prompt("enter a season (rainy,summer,winter,spring)", "rainy")
+switch (res) {
+    case "rainy":
+        console.log("visit shivamogga");
+        break;
+    case "summer":
+        console.log("visit hampi");
+        break;
+    case "winter":
+        console.log("visit spiti");
+        break;
+    case "spring":
+        console.log("visit bangalore");
+        break;
+    default:
+        console.log("stay baack in home");
